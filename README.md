@@ -89,15 +89,57 @@ Create a DataFrame with the three principal components.
 ![Screen Shot 2021-09-02 at 3.12.51 AM](https://i.imgur.com/ts50Uyd.png)
 
 
+## Clustering Cryptocurrencies Using K-means
+
+Deliverable 3: Clustering Cryptocurrencies Using K-means
+
+Create the elbow curve to find the best value for K to be used in K-means
+
+![Screen Shot 2021-09-02 at 3.18.08 AM](https://i.imgur.com/vBuGvtf.png)
+
+From the elbow curve it can be seen, that the best value for K is 4, as the line becomes horizontal after 4.
+
+Executing the K-means model with the clusters as 4
+
+![Screen Shot 2021-09-02 at 3.21.04 AM](https://i.imgur.com/okXlHoc.png)
+
+Create a new DataFrame including predicted clusters and cryptocurrencies features
+
+![Screen Shot 2021-09-02 at 3.23.21 AM](https://i.imgur.com/AfjZbPR.png)
 
 
+## Visualizing Cryptocurrencies Results
+
+Deliverable 4: Visualizing Cryptocurrencies Results
+
+1. The three dimensional diagram: 3D-Scatter with the PCA data and the clusters
+
+![Screen Shot 2021-09-02 at 3.27.27 AM](https://i.imgur.com/ADRWjWM.png)
+
+It can been seen that BitTorrent is the only cryptocurrency in the class 2
+
+
+2. The scatter plot
+
+![Screen Shot 2021-09-02 at 3.31.21 AM](https://i.imgur.com/MHaQGpZ.png)
 
 
 #   Cryptocurrencies-Analysis-Summary
 
-It can be seen that all the models have very low precision for high risk credit/loan. This means that these models show weak precision in determining which credit risk is high. 
-However the Easy Assemble Adaboost Classifier has the highest accuracy of 93%. For high risks, the sensitivity is 91%, which is high, and shows that this model can detect the high risk credits. However the precision is still very low for high risks. However the precision is good for detecting low risk credits.
-Of all these models, Easy Assemble Adaboost Classifier seems to be the most feasible to be used for Credit Risk Analysis, although it has the shortcoming of a low precision for high risks.
+The cryptocurrency input data has been preprocessed and processed through PCA, K-means and visualizations to create the set of tradable cryptocurrencies.
+
+There are a total of 532 tradable cryptocurrencies
+
+![Screen Shot 2021-09-02 at 3.35.26 AM](https://i.imgur.com/8dqUsPP.png)
+
+A table has been created with the tradable cryptocurrencies
+
+![Screen Shot 2021-09-02 at 3.35.52 AM](https://i.imgur.com/fN6tDrU.png)
+
+Most of the cryptocurrenices belong to class 0 and 3.
+
+The table and the visualizations can be analyzed to make investment decisions on the most feasible crytocurrencies.
+
 
 
 
